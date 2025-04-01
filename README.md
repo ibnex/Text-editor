@@ -52,4 +52,4 @@ This project is a React-based text editor application with a suite of text manip
 [insta] - https://www.instagram.com/ibne__ahad?igsh=MWgzbGs3bDY1M296Yg==
 
 
-                 --Thank You--
+                 ##Thank you
