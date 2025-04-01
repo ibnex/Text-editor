@@ -32,8 +32,8 @@ This project is a React-based text editor application with a suite of text manip
 
 2.  **Clone the Repository (if applicable):**
     ```bash
-    git clone <https://github.com/ibnex/Text-editor.git>
-    cd <Text-editor>
+    git clone https://github.com/ibnex/Text-editor.git
+    cd Text-editor
     ```
 
 3.  **Install Dependencies:**
