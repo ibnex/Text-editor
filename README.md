@@ -1,12 +1,55 @@
-# React + Vite
+# React Text Editor Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based text editor application with a suite of text manipulation tools, word and character count display, and a text preview feature. It's built with Tailwind CSS for a modern and responsive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Text Input Area:** A fully functional textarea for text entry and editing.
+* **Text Manipulation Tools:**
 
-## Expanding the ESLint configuration
+    * Uppercase Conversion
+    * Lowercase Conversion
+    * Title Case Conversion
+    * Sentence Case Conversion
+    * Whitespace Trimming
+    * Space Removal
+    * Copy to Clipboard
+    * Text Clearing
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Real-time Word and Character Count:** Instant display of word and character counts.
+* **Text Preview:** A dedicated area to preview the entered text.
+* **Modern and Responsive Design:** Implemented with Tailwind CSS for a clean and adaptable UI.
+
+## Technologies Used
+
+* **React:** For building the user interface.
+* **Tailwind CSS:** For styling and responsive design.
+
+## Getting Started
+
+1.  **Prerequisites:**
+    * Node.js and npm (or yarn) installed.
+
+2.  **Clone the Repository (if applicable):**
+    ```bash
+    git clone <https://github.com/ibnex/Text-editor.git>
+    cd <Text-editor>
+    ```
+
+3.  **Install Dependencies:**
+    ```bash
+    npm install vite , tailwindcss
+    ```
+
+4.  **Start the Development Server:**
+    ```bash
+    npm run dev
+    ```
+
+
+## Author -->
+[ibnex] - https://github.com/ibnex,
+[insta] - https://www.instagram.com/ibne__ahad?igsh=MWgzbGs3bDY1M296Yg==
+
+
+                 --Thank You--
