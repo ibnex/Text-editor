@@ -10,8 +10,12 @@ function TextEditor() {
   const RemoveSpace = () => setTextValue(TextValue.replaceAll(" ", ""));
   const Delete = () => setTextValue("");
   const Copy = () => {
-    navigator.clipboard.writeText(TextValue.trim());
-    alert("Copied to clipboard!");
+    if (TextValue == "") {
+      alert("Can't copy a empty textArea");
+    } else {
+      navigator.clipboard.writeText(TextValue.trim());
+      alert("Copied to clipboard!");
+    }
   };
   const Trim = () => setTextValue(TextValue.trim());
   const Titlecase = () =>
@@ -39,8 +43,14 @@ function TextEditor() {
   return (
     <div className="min-h-screen bg-gray-100 p-4 flex justify-center items-start">
       <div className="w-full max-w-3xl bg-white rounded-xl shadow-lg p-6">
-      
         <div className="flex flex-wrap gap-3 mb-6">
+
+    
+
+
+
+
+
           <button
             className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg shadow-md"
             onClick={UpperCase}
@@ -91,7 +101,6 @@ function TextEditor() {
           </button>
         </div>
 
- 
         <div className="mb-6 border rounded-lg p-4">
           <textarea
             value={TextValue}
@@ -101,7 +110,6 @@ function TextEditor() {
           />
         </div>
 
-   
         <div className="flex justify-between items-center mb-6">
           <div className="flex gap-4">
             <div className="flex items-center">
@@ -113,10 +121,8 @@ function TextEditor() {
               <span className="text-xl text-gray-800">{characterCount}</span>
             </div>
           </div>
-   
         </div>
 
-   
         <div className="border rounded-lg p-4 bg-gray-50">
           <div className="overflow-y-auto max-h-[30vh] font-mono text-lg text-gray-800 whitespace-pre-wrap">
             <p>{TextValue === "" ? "Enter text here..." : TextValue}</p>
@@ -125,6 +131,12 @@ function TextEditor() {
       </div>
     </div>
   );
+
+
+
+
 }
+
+
 
 export default TextEditor;

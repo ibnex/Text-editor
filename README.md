@@ -41,7 +41,7 @@ This project is a React-based text editor application with a suite of text manip
     npm install vite , tailwindcss
     ```
 
-4.  **Start the Development Server:**
+4.  **Start the Development Server:**  
     ```bash
     npm run dev
     ```
